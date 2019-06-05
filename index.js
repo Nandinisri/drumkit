@@ -7,7 +7,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
 
 document.addEventListener("keypress",function(e){
-  console.log(e);
+  playSound(e.key);
 });
 
 function palySound(param){
