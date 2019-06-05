@@ -6,8 +6,8 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 }
 
 
-document.addEventListener("keypress",function(e){
-  playSound(e.key);
+document.addEventListener("keypress",function(event){
+  playSound(event.key);
 });
 
 function palySound(param){
